@@ -6,7 +6,7 @@ import SubmitButton from "../form/SubmitButton"
 
 import styles from "./ProjectForm.module.css"
 
-function ProjectForm({ handleSubmit, btnText, projectData }) {
+function ProjectForm({ handleSubmit, btnText, projectData }) { // npm run backend
   const [categories, setCategories] = useState([])
   const [project, setProject] = useState(projectData || {})
 
